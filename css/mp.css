@@ -1,0 +1,166 @@
+/*http://css-tricks.com/snippets/css/clear-fix/*/
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+/* End Clearfix */
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.center{
+	text-align: center;
+}
+#center{
+	text-align: center;
+}
+#content{
+	height: 100%;
+}
+.frame{
+	background-color: #FFFFFF;
+	height: 100%;
+}
+.browseBox{
+	text-align: left;
+	height: 600px;
+	overflow: scroll;
+}
+.movie{
+	height: 150px;
+	width: 125px;
+	margin: 20px 20px 50px;
+	font-size: 1em;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.movie p{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar{
+	margin-top: 30px;
+    height: 30px;
+}
+.navbar li{
+	list-style: none;	
+	text-align: center;
+	color: #999999;
+	border: 1px #999999 solid;
+	height: 30px;
+	width: 200px;
+	float:left;
+	border-bottom: none;
+    position: relative;
+    left: -40px;
+}
+.navbar li:hover{
+	color: #000000;
+	border: 1px #000000 solid;	
+	border-bottom: none;
+}
+.navbar .active, .navbar .active:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 1px #000000 solid;
+	border-bottom: 0px #FFFFFF solid;
+}
+hr{
+	margin: 1px;
+	padding: 0px;
+}
+.question{
+	font-size: 1.2em;
+	font-weight:500;
+	font-style:italic
+}
+.answer{
+	margin-left: 20px;
+}
+div.box{
+	display: block;
+	width: 170px;
+	margin: 20px;
+	padding: 0px 5px 10px;
+	border: 1px #666666 dotted;
+	background-color: #000;
+}
+.box a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 0.6em;
+	color: #55ADAB;
+}
+.box a:hover{
+	text-decoration: none;
+	text-align: center;
+	font-size: 0.6em;
+	color: #BADA55;
+}
+div.box:hover{
+	color: #55ADAB;
+	background-color:#333333;
+}
+.box a h1{
+	height: 40px;	
+}
+.offset1{
+	margin-left: 20px;
+}
+nav.space{
+	margin: 20px;
+}
+.mainImg{
+	height:150px;
+	padding: 10px;
+}
+.reset{
+	margin:0;
+	padding:0;
+}
+.textLeft{
+	text-align: left;
+}
+.lowNav{
+	margin: 5px 4px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    border-color: rgb(200,200,200);
+    background-color: rgb(256,256,256);
+    text-align: center;
+
+	color: rgb(0,82,117);
+	font-weight: bold;
+	text-decoration: none;
+}
+textarea{
+	height: 200px;
+	width: 100%;
+}
+#content textarea{
+	height: 100px;
+	margin: auto;
+}
+.bottomBorder{
+	border-bottom: 2px #DDDDDD dashed;
+}

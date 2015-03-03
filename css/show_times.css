@@ -1,0 +1,101 @@
+#zip_form
+{
+	width: 260px;
+	margin: 0px 4px 20px 0px;
+	height: 40px;
+	float: right;
+}
+
+#zip_form #zip_bar
+{
+	display: inline-block;
+	width: 75px;
+}
+
+#zip_form #button
+{
+	display: inline-block;
+}
+
+
+
+#dates
+{
+	float: left;
+	display: inline-block;
+
+	margin: 0px 0px 0px 4px;
+
+	height: 40px;
+	width: 50%;
+	text-align: left;
+}
+
+#dates a
+{
+	display: inline-block;
+
+	width: 50px;
+	height: 40px;
+
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+    border-color: #000;
+
+
+    color: rgb(0,82,117);
+    text-decoration: none;
+
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.10, rgb(232,232,232)), color-stop(0.50, rgb(255,255,255)) );
+	background-image: -moz-linear-gradient( center bottom, rgb(232,232,232) 10%, rgb(255,255,255) 50% );
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
+#dates a:hover
+{
+	text-decoration:none;
+    background-color:#FCF4BE;
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.10,#CFC7A4), color-stop(0.50, rgb(255,255,255)) );
+    background-image: -moz-linear-gradient( center bottom, #CFC7A4 10%, rgb(255,255,255) 50% );
+}
+
+#dates li
+{
+	display: inline-block;
+
+	width: 50px;
+	height: 40px;
+
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    border-color: #000;
+    cursor:default;
+    color:#333;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+     background-color:#FCF4BE;
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.10,#CFC7A4), color-stop(0.50, rgb(255,255,255)) );
+    background-image: -moz-linear-gradient( center bottom, #CFC7A4 10%, rgb(255,255,255) 50% );
+
+    color: rgb(0,82,117);
+}
+
